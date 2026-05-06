@@ -5,7 +5,7 @@ import axios from 'axios';
 const Login = () => {
 
   const [currentState, setCurrentState] = useState('');
-  const {token,setToken,navigate,backendUrl} = useContext();
+  const {token,setToken,navigate,backendUrl} = useContext(ShopContext);
 
   const[name,setName] = useState('')
   const[password,setPassword] = useState('')
