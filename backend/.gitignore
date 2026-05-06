@@ -1,0 +1,6 @@
+#secret
+.env
+
+# Dependencies
+node_modules/
+public/
